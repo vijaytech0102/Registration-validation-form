@@ -1,0 +1,70 @@
+h1{
+    
+    background-color: rgba(223, 222, 222, 0.568);
+    width: 100%;
+    background-size: contain;
+    text-align: center;
+   text-transform: uppercase;
+   text-transform: bold;
+}
+html{
+    font-size: 100%;
+}
+.form-container-1 i{
+    position: absolute;
+    right: 52%; 
+     top: 7.3rem;
+     visibility:hidden;
+}
+.form-container-2 i{
+    position: absolute;
+    right: 9.8%; 
+     top: 7.3rem;
+     visibility:hidden;
+}
+
+.form-container-3 i{
+   position: absolute;
+    right: 4%;
+    top: 0.7rem;
+    visibility:hidden;
+}
+.form-container-4 i{
+    position: absolute;
+     right: 53%;
+     top: 54%;
+     visibility:hidden;
+ }
+ .form-container-5 i{
+    position: absolute;
+    right: 11.4%; 
+     top: 54%;
+     visibility:hidden;
+}
+.col-md-6 small {
+   visibility: hidden;
+}
+.col-12 small{
+    visibility: hidden;
+}
+#error small{
+    color: #e74c3e;
+    visibility:hidden;
+}
+#error i.fa-exclamation-circle{
+    color: #e74c3e;
+    visibility: visible;
+}
+#error small{
+    visibility: visible;
+}
+#error input{
+    border-color: #e74c3e;
+}
+#success i.fa-check-circle{
+    color: #2508fd;
+    visibility: visible;
+}
+#success input{
+    border-color: #012cff;
+}
